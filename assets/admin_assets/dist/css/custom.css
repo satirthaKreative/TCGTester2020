@@ -1,0 +1,163 @@
+
+
+
+div#popup_field .modal-body {
+
+        max-height: 300px;
+
+        min-height: auto;
+
+        overflow-y: auto;
+
+    }
+#popup_field .modal-body ul li {
+    list-style: none;
+    padding: 5px 12px;
+    font-size: 14px;
+    border-bottom: 1px solid #eeeeee;
+    display: inline-block;
+    width: 50%; 
+}
+
+#popup_field .modal-body ul {
+    margin: 0;
+    border: 1px solid #eeeeee;
+    padding: 0;
+}
+
+#popup_field .modal-title, #modal2 .modal-title {
+    font-weight: 600;
+}
+
+
+
+/**** Accordion ****/
+
+.accordion_content {
+    margin-bottom: 2rem;
+}
+.accordion_content .accordion-toggle {
+    background-color: #007bff;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: .75rem 1.25rem;
+    position: relative;
+    border-radius: .25rem;
+    color: #ffffff;
+    box-shadow: 0 0 0 rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+    clear: both;
+    overflow: hidden;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.accordion_content .accordion-toggle.active {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.accordion_content .accordion-content {
+    padding: 1.25rem;
+    box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+    margin-bottom: 2rem;
+    background-color: #ffffff;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    overflow: hidden;
+}
+.accordion_content .accordion-toggle button.btn {
+    float: right;
+    padding: 12px 0 10px;
+    width: 30px;
+    color: #fff;
+}
+
+.accordion_content .accordion-toggle:first-child {
+    margin-top: 0;
+}
+.accordion_content .accordion-toggle.active .fa-plus:before {
+    content: "\f068";
+}
+.accordion-content {display: none;}
+
+/* ----- pagination hover effect (12.02.2020) Satirtha Das----- */
+li.page-item.active a:hover {
+    color: #007bff;
+    background: #e9ecef;
+    border: 1px solid;
+    border-color: #dee2e6;
+}
+
+
+
+.archetypr_data table.table-bordered.dataTable th, .archetypr_data table.table-bordered.dataTable td {
+    border-left-width: 0;
+    white-space: nowrap;
+}
+a.refresh_link {
+    display: inline-block;
+    background: #ffffff;
+    padding: 6px 14px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin: 4px 0;
+}
+
+
+/********** 14 FEB 2020  ***************/
+
+#cross_arche_modal .modal-body span.cross {
+    font-size: 27px;
+    width: 50px;
+    margin: 20px auto 10px;
+    display: block;
+    text-align: center;
+    background-color: #ffd1d1;
+    border-radius: 50%;
+    height: 50px;
+    padding: 4px;
+    color: #e04444;
+}
+
+#cross_arche_modal .modal-body  h2 {
+    font-size: 22px;
+    text-align: center;
+    padding: 0 10px;
+    margin: 25px 0 20px;
+}
+
+/********** 14 FEB 2020  ***************/
+
+
+/********** Cross Sent mail  ***************/
+
+
+div#cross_send_mail_modal {
+    background: rgba(0, 0, 0, 0.50);
+}
+
+div#cross_send_mail_modal .modal-dialog {
+    max-width: 330px;
+    top: 40px;
+}
+
+div#cross_send_mail_modal .modal-dialog .modal-content {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.26);
+    text-align: center;
+}
+
+div#cross_send_mail_modal .modal-dialog .modal-content span.cross {
+    font-size: 20px;
+    color: #75ca60;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+div#cross_send_mail_modal .modal-dialog .modal-content  h2 {
+    font-size: 22px;
+}
+
+/********** Cross Sent mail  ***************/
